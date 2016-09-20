@@ -6,6 +6,7 @@ cache:
 
 install:
 - pip install -U platformio
+- platformio lib --global install 2
 
 env:
 - BOARD=uno
